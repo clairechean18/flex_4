@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+    border: 1px solid #000;
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+
+.column1 {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 90px;
+    margin: 0;
+    text-align: center;
+}
+
+.column2 {
+    flex: 1;
+    border: 2px solid #000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-content {
+    display: flex;
+}
+
+.sub-column1 {
+    flex: 1;
+    border: 2px solid #000;
+    padding: 10px;
+    height: 200px;
+    margin: 10px;
+}
+
+.sub-column2 {
+    flex: 2; /* Adjust flex property to make "About Me Blurb" larger */
+    border: 2px solid #000;
+    padding: 10px;
+    height: 200px;
+    margin: 10px;
+}
+
+.lower-content {
+    flex: 5;
+    border: 2px solid #000;
+    padding: 50px;
+    margin: 15px;
+    height: 200px;
+}
+
+footer {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 0;
+    text-align: center;
+}
